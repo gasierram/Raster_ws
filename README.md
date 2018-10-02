@@ -31,11 +31,23 @@ Complete la tabla:
 
 | Integrante | github nick |
 |------------|-------------|
-|            |             |
+|Felipe Ramos            | pipemax85            |
+|Alejandro Sierra            |gasierram             |
+
 
 ## Discusión
 
 Describa los resultados obtenidos. En el caso de anti-aliasing describir las técnicas exploradas, citando las referencias.
+
+- Resultados obtenidos:
+![Con titulo](images/result.png "Rasterización del triangulo")
+
+- Anti-aliasing:
+Subdividiendo cada píxel en n zonas. La intensidad del color es proporcional al numero de zonas que pertenecen al triangulo.
+
+- Shading:
+Interpolación: Cada vertice del triangulo tiene un color inicial. Los puntos en el triangulo tienen cierta proporción de cada color bajo el criterio de su distancia a cada nodo.
+
 
 ## Entrega
 
